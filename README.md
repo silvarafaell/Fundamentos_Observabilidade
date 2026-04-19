@@ -14,3 +14,26 @@ Curso Fundamentos de Observabilidade no nextwave(LuisDEV)
 ### Monitoramento vs Observabilidade
  - Monitoramento é uma ferramenta ou solução técnica que permite as equipes observar e entender o estado de seus sistemas, baseada na coleta de métricas ou logs pre-definidos
  - Observabilidade é uma ferramenta ou solução técnica que permite as equipes depurar ativamente seu sistema, baseada na exploração de propriedades e padrões não definidos previamente
+
+### Beneficios da Observabilidade
+ - A observabilidade desempenha um papel critico em operações de sistemas complexos e oferece diversos beneficios importantes. Aqui estão alguns pontos que destacam a importancia da observabilidade:
+   - Identificação Rápida de problemas
+   - Compreensão do estado de saúde
+   - Resolução eficiente de problemas
+   - Otimização de Desempenho
+   - Tomada de Decisões baseada em dados
+   - Plenajamento e Previsão
+   - Segurança e conformidade
+   - Melhoria contínua
+   - Visibilidade de sistemas distribuidos
+   - Experiencia do usuario aprimorada
+   - Melhor visibilidade
+   - Melhor Alerta
+   - Melhor fluxo de trabalho
+   - Menos Tempo em Reuniões (war-rooms)
+ - SEM OBSERVABILIDADE SOMOS COMO PILOTOS DE AVIÕES COM TODOS OS INSTRUMENTOS DESLIGADOS
+
+### Pilares da Obervabilidade
+ - Metrics
+ - Logs
+ - Traces
