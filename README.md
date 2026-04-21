@@ -37,3 +37,46 @@ Curso Fundamentos de Observabilidade no nextwave(LuisDEV)
  - Metrics
  - Logs
  - Traces
+
+ ### Medindo Confiabilidade
+  - Engenharia de confiabilidade de Site utiliza SLIS, SLOs e Error Budget para medir a confiabilidade
+  - Tem como objetivo demonstrar a satisfação do usuario
+  - É comumente utilizado como um equibíbrio entre "Novas Funcionalidades" e "Confiabilidade"
+
+### MELT (Métricas, Eventos, Logs e Traces)
+ - Observabilidade é fundamental para entender a saúde e o desempenho do sistema e a estrutura MELT (Métricas, Eventos, Logs e Traces) oferece uma abordagem abrangente para observabilidade, fornecendo insights valiosos sobre a integridade, o desempenho e o comportamento do sistema.
+ - Telemetria refere-se a coleta e transmissão automática de dados de fontes remotas para um local centralizado para monitoramento e análise.
+   - Categorias de Dados de Telemetria:
+     - Métricas (Metrics)
+     - Eventos (Events)
+     - Registros (Logs)
+     - Traços (Traces)
+   - Importância do MELT
+     - Permite a detecção rápida de problemas, diagnósticos e resolução. Otimiza o desempenho geral do sistema.
+ - Métricas:
+   -  Medidas numéricas para o desempenho de alto nível do sistema
+   -  Exemplos: Uso de CPU, Taxa de Erros.
+   -  Vantagens: Retenção de dados, consulta simplificada, análise de tendências.
+ - Eventos:
+   - Ocorrências discretas com carimbos de data/hora
+   - Usados para rastrear eventos cruciais e detectar problemas
+   - Exemplos: Tentativas de login de usuário, Notificações de alerta
+ - Logs:
+   - Registros descritivos do comportamento do sistema.
+   - Essenciais para depuração e segurança
+   - Vários formatos (texto, JSON) para consulta.
+ - Traces:
+   - Captura o fluxo de solicitações de ponta a ponta em sistemas distribuídos.
+   - Espansões representam operações individuais dentro dos traços.
+   - Oferece insights sobre desempenho e comportamento.
+   
+ ### Como Monitorar e Observar ?
+  - Os quatro sinais de ouro do monitoramento são:
+  - Latência: o tempo necessário para atender a uma solicitação - "Slow is the new down."
+  - Tráfego: quanto demanda está sendo colocada em seu sistema.
+  - Erros: a taxa de solicitações que falham
+  - Saturação: o quão "cheio" está o seu serviço.
+  - Observação: Se você só pode medir quatro métricas do seu sistema voltado para o usuário, concentre-se nestes quatro.
+
+      
+      
